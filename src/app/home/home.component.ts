@@ -17,5 +17,5 @@ export class HomeComponent {
   address = 'Lisbon, Portugal';
   photo = 'https://github.com/fsmaiorano.png';
   aboutMe =
-    "I'm a software engineer with 10+ years of experience in the field. I have a bachelor's degree in Computer Science and a master's degree in Software Engineering. I'm passionate about technology and I'm always looking for new challenges and opportunities to learn and grow. I'm currently living in Lisbon, Portugal, and I'm looking for a new job opportunity in the area.";
+    "I'm a software engineer with 10+ years of experience in the field. I have a bachelor's degree in Computer Science and graduate degree in Software Engineering. I'm passionate about technology and I'm always looking for new challenges and opportunities to learn and grow. I'm currently living in Lisbon, Portugal, and I'm looking for a new job opportunity in the area.";
 }

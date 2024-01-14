@@ -7,10 +7,19 @@
 
   padding: 5rem;
 
-  &__photo {
+  .left {
+    width: 20%;
+    margin-right: 2%;
+  }
+
+  .right {
+    width: 80%;
+  }
+
+  .photo {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     margin-bottom: 1rem;
 
@@ -23,7 +32,7 @@
     }
   }
 
-  &__about {
+  .about {
     width: 100%;
 
     &__name {
