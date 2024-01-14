@@ -28,10 +28,6 @@ jobs:
         uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.4.0
         with:
           github_access_token: ${{ secrets.GITHUB_TOKEN }}
+          angular_dist_build_folder: dist/fsmaiorano
 
-      - name: Copy index.html to 404.html
-        run: |
-          if [ -f dist/index.html ]; then
-            cp dist/index.html dist/404.html
-          else
-            echo "dist/index.html does not exist"
+
