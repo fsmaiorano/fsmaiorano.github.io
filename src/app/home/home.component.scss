@@ -1,0 +1,58 @@
+.home {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 0 auto;
+  max-width: 1440px;
+
+  padding: 5rem;
+
+  &__photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    &--img {
+      width: 70%;
+      min-width: 200px;
+      height: 70%;
+      min-height: 200px;
+      border-radius: 50%;
+    }
+  }
+
+  &__about {
+    width: 100%;
+
+    &__name {
+      font-weight: bold;
+    }
+
+    &__detail {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      margin: 1rem 0;
+
+      &__item {
+        &--label {
+          font-weight: bold;
+        }
+
+        &--value {
+          margin-left: 0.5rem;
+        }
+
+        &--margin-left {
+          margin-left: 2%;
+          @media (max-width: 1142px) {
+            margin-left: 0;
+          }
+        }
+      }
+    }
+  }
+}

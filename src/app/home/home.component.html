@@ -1,13 +1,45 @@
-<p>home works!</p>
-<div class="example-button-row">
-  <button mat-button>Basic</button>
-  <button mat-button color="primary">Primary</button>
-  <button mat-button color="accent">Accent</button>
-  <button mat-button color="warn">Warn</button>
-  <button mat-button disabled>Disabled</button>
-  <button mat-flat-button>Basic</button>
-  <button mat-flat-button color="primary">Primary</button>
-  <button mat-flat-button color="accent">Accent</button>
-  <button mat-flat-button color="warn">Warn</button>
-  <button mat-flat-button disabled>Disabled</button>
-</div>
+<section class="home">
+  <div class="home__photo">
+    <img class="home__photo--img" src="{{ photo }}" alt="Photo of {{ name }}" />
+  </div>
+  <div class="home__about">
+    <h1 class="home__about__name">{{ name }}</h1>
+    <span class="divider"></span>
+    <div class="home__about__detail">
+      <div class="home__about__detail__item">
+        <span class="home__about__detail__item--label">Nationality:</span>
+        <span class="home__about__detail__item--value">{{ nationality }}</span>
+      </div>
+
+      <div class="home__about__detail__item--margin-left">
+        <span class="home__about__detail__item--label">Phone number:</span>
+        <span class="home__about__detail__item--value">{{ phone }}</span>
+      </div>
+    </div>
+
+    <div class="home__about__detail">
+      <div class="home__about__detail__item">
+        <span class="home__about__detail__item--label">Linkedin:</span>
+        <span class="home__about__detail__item--value">{{ linkedin }}</span>
+      </div>
+
+      <div class="home__about__detail__item--margin-left">
+        <span class="home__about__detail__item--label">Address:</span>
+        <span class="home__about__detail__item--value">{{ address }}</span>
+      </div>
+    </div>
+
+    <div class="home__about__detail">
+      <div class="home__about__detail__item">
+        <span class="home__about__detail__item--label">E-mail:</span>
+        <span class="home__about__detail__item--value">{{ email }}</span>
+      </div>
+    </div>
+    <div class="home__about__detail">
+      <div class="home__about__detail__item">
+        <span class="home__about__detail__item--label">About me:</span>
+        <span class="home__about__detail__item--value">{{ aboutMe }}</span>
+      </div>
+    </div>
+  </div>
+</section>
