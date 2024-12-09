@@ -84,7 +84,11 @@ function App() {
                   window.open("https://www.linkedin.com/in/fsmaiorano/")
                 }
               >
-                <img src={linkedin} alt="linkedin" className="w-6 h-6 dark:invert" />
+                <img
+                  src={linkedin}
+                  alt="linkedin"
+                  className="w-6 h-6 dark:invert"
+                />
                 <p className="ml-2">fsmaiorano</p>
               </button>
             </div>
@@ -140,11 +144,11 @@ function App() {
             <div className="text-sm">
               <p>
                 I'm a software engineer with a strong background in full-stack
-                development, primarily focused on building mobile hybrid
-                applications. My experience spans mobile, front-end, and
-                back-end platforms, with an emphasis on designing scalable and
-                maintainable architectures that align with both technical and
-                business needs.
+                development, primarily working on back-end systems but also
+                experienced in front-end and mobile applications. My work in
+                mobile development focuses on building hybrid applications.,
+                with an emphasis on designing scalable and maintainable
+                architectures that align with both technical and business needs.
               </p>
               <p className="mt-2">
                 I enjoy tackling complex challenges, whether it's optimizing
