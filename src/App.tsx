@@ -27,16 +27,15 @@ function App() {
   ];
   const backEndSkills = [
     ".NET Core",
-    "Node",
+    "NodeJS",
     "Entity Framework",
-    "Aspire",
     "SQL",
     "PostgreSQL",
   ];
-  const mobileSkills = ["React Native", "Flutter", "Xamarin", "Maui"];
+  const mobileSkills = ["React Native", "Flutter", "Maui"];
   const otherSkills = [
     "Docker",
-    "Kubernetes",
+    "Aspire",
     "Azure Devops",
     "Git",
     "RabbitMQ",
@@ -143,22 +142,22 @@ function App() {
             <Separator className="my-4" />
             <div className="text-sm">
               <p>
-                I'm a software engineer with a strong background in full-stack
-                development, primarily working on back-end systems but also
-                experienced in front-end and mobile applications. My work in
-                mobile development focuses on building hybrid applications.,
-                with an emphasis on designing scalable and maintainable
-                architectures that align with both technical and business needs.
+                I’m a software engineer with a strong background in full-stack
+                development, primarily specializing in back-end systems but also
+                experienced in front-end and mobile applications. In mobile
+                development, I focus on building hybrid applications, with an
+                emphasis on designing scalable and maintainable architectures
+                that align with both technical and business needs.
               </p>
               <p className="mt-2">
-                I enjoy tackling complex challenges, whether it's optimizing
-                systems, improving workflows, or collaborating with teams to
-                deliver high-quality results. I have primarily worked on mobile
-                solutions that integrate seamlessly with diverse systems,
-                bridging the gap between user experience and technical
-                complexity. Mentoring and guiding other developers is something
-                I value deeply, as it fosters growth and strengthens team
-                collaboration.
+                I enjoy learning new technologies and tackling complex
+                challenges, whether optimizing systems, improving workflows, or
+                collaborating with teams to deliver high-quality results. My
+                work primarily involves creating solutions that integrate
+                seamlessly with diverse systems, bridging the gap between user
+                experience and technical complexity. Mentoring and guiding other
+                developers is something I deeply value, as it fosters growth and
+                strengthens team collaboration.
               </p>
             </div>
           </div>
@@ -166,13 +165,7 @@ function App() {
           <div className="flex flex-col p-4 mt-4 justify-center items-start border-black-700 border-2 w-full">
             <p className="text-md">Featured Projects</p>
             <Separator className="my-4" />
-            <p className="text-sm">
-              I am a full-stack developer with a passion for building products
-              that solve real-world problems. I have experience in building
-              applications using different technologies and architectures. I am
-              always looking for new challenges and opportunities to learn and
-              grow.
-            </p>
+            <p className="text-sm"></p>
           </div>
 
           <div className="flex flex-col p-4 mt-4 justify-center items-start border-black-700 border-2 w-full">
